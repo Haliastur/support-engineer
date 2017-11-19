@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Eric Jinks"
 theme = "ananke"
+disableKinds = ["taxonomyTerm", "taxonomy"]
