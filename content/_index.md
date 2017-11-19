@@ -3,7 +3,7 @@ title: "Support Engineer"
 description: 'Eric Jinks'
 date: 2017-11-19T10:12:57+10:00
 draft: true
-featured_image: 'https://source.unsplash.com/xotmnyN3gdc/1200x800'
+featured_image: '/logomark-light.svg'
 ---
 
 ### Here are things a support engineer at Netlify might do in no particular order. List 5 things that are your most favorite to do and 5 things that are least favorite.
