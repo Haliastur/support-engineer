@@ -3,3 +3,6 @@ languageCode = "en-us"
 title = "Eric Jinks"
 theme = "ananke"
 disableKinds = ["taxonomyTerm", "taxonomy"]
+
+[params]
+  githubUrl = "https://github.com/Haliastur/support-engineer"
