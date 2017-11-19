@@ -1,0 +1,9 @@
+{{ $featured_image := .Param "featured_image" | default "images/gohugo-default-sample-hero-image.jpg" }}
+<footer class="bottom-0w-100 pa3 cover bg-top" role="contentinfo" style="background-image: url('{{ $featured_image }}');">
+  <div class="flex justify-center">
+  <a class="f4 fw1 tracked ttu hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+    &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+  </a>
+  {{ partial "social-follow.html" . }}
+  </div>
+</footer>
