@@ -1,7 +1,7 @@
 {{ $featured_image := .Param "featured_image" | default "images/gohugo-default-sample-hero-image.jpg" }}
 <footer class="bottom-0w-100 pa3" role="contentinfo" style="background-image: linear-gradient(45deg,rgba(77, 154, 191, 0.95) 0,rgba(0, 199, 183, 0.95) 100%)">
   <div class="flex justify-center">
-  <a class="f4 fw1 tracked ttu hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+  <a class="f4 fw1 tracked ttu hover-white no-underline white-70 dn db pv2 ph3" href="{{ .Site.BaseURL }}" >
     &copy; {{ now.Format "2006" }} {{ .Site.Title }}
   </a>
   {{ partial "social-follow.html" . }}
