@@ -1,21 +1,23 @@
 ---
 title: 'Support Engineer'
 description: 'Eric Jinks'
-date: 2017-11-19T10:12:57+10:00
+date: 2018-11-22T07:54:57+10:00
 featured_image: '/images/logomark-light.svg'
 ---
+
+
 
 ### List 5 things that are your most favorite to do and 5 things that are least favorite.
 
 #### Favourite
 
+* *Respond to 60+ support requests via email or chat every day*
+
+    > Initially, I would find it challenging to respond to and resolve large volumes of support requests. However, I know that this is something I will be able to confidently manage as I become more experienced in this role.
+
 * *Write and maintain documentation for our software and blog posts for our website.*
 
     > I would be excited to work on documentation and blog posts. Blogging is a skill that I am personally challenging myself to improve and spend time on.
-
-* *Submit bug reports and potentially bug fixes to closed and open source projects that Netlify maintains on GitHub*
-
-    > I like to contribute on open-source projects in my spare time (including Netlify CMS). Netlify's investment in open-source projects is very encouraging for developers/new customers.
 
 * *Set up your own copy of several static site frameworks for debugging*
 
@@ -27,29 +29,29 @@ featured_image: '/images/logomark-light.svg'
 
 * *Debug a customer's build using a programming language and framework that you've never seen before*
 
-    > I throughly enjoy learning new things and problem solving. Debugging is like a puzzle game, adding a new language or framework is like playing on hard-mode.
+    > I enjoy learning new things and problem-solving. Debugging is like a puzzle game, adding a new language or framework is like playing on hard-mode.
 
 #### Least Favourite
-
-* *Receive occasional phone calls requesting support from our highest-value customers*
-
-    > This would be challenging and possibly a high-pressure situation, however it is something that I would not shy away from.
 
 * *Deliver a talk to many people you don't know at a conference or meetup*
 
     > Public speaking is a challenge that pushes me outside my comfort zone. I have delivered talks in the past and would like to grow my skills and confidence in this area.
 
-* *Respond to 60+ support requests via email or chat every day*
-
-    > Initially I would find it challenging to respond to and resolve large volumes of support requests. However, I know that this is something I will be able to confidently manage as I become more experienced in this role.
-
 * *Create video tutorials to help teach users a specific feature or use case*
 
     > I wanted to list this as 'favourite' as I would enjoy this task, but I am not overly-confident recording screencasts. Creating video tutorials is an area that I would like to learn and practice.
-
+    
 * *Help manage communications during a service outage*
 
-    > This is a time when you'll be dealing with upset customers who demand answers. It is a stressful time for everyone involved.
+    > I work well under pressure, however, this is a time when you'll be dealing with upset customers who demand answers. It is a stressful time for everyone involved.
+
+* *Receive occasional phone calls requesting support from our highest-value customers*
+
+    > I would be excited and confident to solve problems for our highest-value customers, however, this would be a challenging, high-pressure situation and would come with a little extra dose of urgency and imposter-syndrome.
+
+* *Choose 5 least-favourite tasks*
+    
+    > This is by far my least-favourite task!
 
 ---
 
@@ -67,7 +69,7 @@ I have been using Netlify for around a year and I only have good things to say. 
 
 ### Tell about how you made your site and why you chose the tools you did.  Briefly explain a challenge you experienced in setting up this site and how you solved it.
 
-I would usually prefer to use a React-based tool such as Gatsby or my own project, Hyperstatic. I decided to use Hugo, as I know that it's one of the most popular generators and would be useful to learn. Hugo is so fast! The biggest challenge I came across was figuring out how the directory structure should be setup, which I overcame by reading the documentation and digging into the theme I installed.
+I would usually prefer to use a React-based tool such as Gatsby or my own project, Hyperstatic. I decided to use Hugo, as I know that it's one of the most popular generators and would be useful to learn. Hugo is so fast! The biggest challenge I came across was figuring out how the directory structure should be set up, which I overcame by reading the documentation and digging into the theme I installed.
 
 ---
 
@@ -103,11 +105,9 @@ Another challenge is understanding that updating DNS records will not be immedia
 
 Hi customer name,
 
-I'd like to help you find a solution, but I will need a bit more information to figure out what is going wrong. Did you notice any error messages in the deploy log? Which build tool or static site generator are you using to build the site?
+That's not good! I'll have a look at your deploy logs and build settings to see if I can see what's going on. Which build tool or static site generator are you using to build the site? Are you able to provide a link to the site's git repository?
 
-If the build was previously working, have you changed anything recently in the site's code or changed any settings in the Netlify dashboard? This could help us narrow in on the source of the problem.
-
-Let me know if I can help you to find any of this information.
+I'd encourage you to take a look at our build troubleshooting guide in our docs: https://www.netlify.com/docs/build-gotchas/. Let me know if this helps.
 
 Thanks,
 Eric
