@@ -107,9 +107,11 @@ Hi customer name,
 
 That's not good! I'll have a look at your deploy logs and build settings to see if I can see what's going on. Which build tool or static site generator are you using to build the site? Are you able to provide a link to the site's git repository?
 
-I'd encourage you to take a look at our build troubleshooting guide in our docs: https://www.netlify.com/docs/build-gotchas/. Let me know if this helps.
+I'd encourage you to take a look at our build troubleshooting guide in our docs: https://www.netlify.com/docs/build-gotchas/.
 
-Thanks,
+Let me know if this helps.
+
+Thanks,  
 Eric
 
 ---
